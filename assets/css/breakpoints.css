@@ -1,0 +1,61 @@
+@import "styles.css";
+
+:root {
+    --xs: 0;
+    --sm: 576px;
+    --md: 768px;
+    --lg: 992px;
+    --xl: 1200px;
+    --xxl: 1400px;
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 992px) {
+    .img-w-1 {
+        width: 100% !important;
+    }
+    .img-pos-1 {
+        position: static !important;
+    }
+
+    .h-large {
+        min-height: 150vh !important;
+    }
+
+    .h-medium-large {
+        min-height: 100vh !important;
+    }
+
+    .h-medium {
+        min-height: 80vh !important;
+    }
+
+    .h-small-medium {
+        min-height: 50vh !important;
+    }
+
+    .h-small {
+        min-height: 20vh !important;
+    }
+}
+
+@media (max-width:  768px) {
+    .card-t1 {
+        width: 60%;
+        margin: 2rem auto !important;
+    }
+}
+
+@media (max-width:  1200px) {
+    .card-t1 {
+        width: 80%;
+        margin: 2rem auto !important;
+    }
+
+    .card-t1:hover {
+        transform: translateY(-10%) !important;
+    }
+}
