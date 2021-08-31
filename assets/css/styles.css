@@ -26,12 +26,9 @@ body, body a {
     font-family: 'Segoe UI', sans-serif;
 }
 
-h3 {
-    font-size: 2.5rem;
-}
-
 .nav-link {
     color: var(--sec-accent) !important;
+    font-size: 1.1rem;
 }
 
 /* Margin & Padding */
@@ -99,12 +96,16 @@ h3 {
 }
 
 /* Effects */
-.shadow-t1 {
-    box-shadow: 0 .6rem .5rem rgba(0, 0, 0, .35);
+h3 {
+    font-size:2.5rem;
 }
 
 .sec-text {
     font-size: 1.2rem;
+}
+
+.shadow-t1 {
+    box-shadow: 0 .6rem .5rem rgba(0, 0, 0, .35);
 }
 
 .accent-color {
