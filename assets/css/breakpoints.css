@@ -63,6 +63,7 @@
     .sec-text {
         font-size: 1.1rem !important;
     }
+
 }
 
 @media (max-width:  1200px) {
@@ -73,5 +74,9 @@
 
     .card-t1:hover {
         transform: translateY(-10%) !important;
+    }
+
+    .mtd-1 {
+        margin-top: 12rem !important;
     }
 }

@@ -26,9 +26,17 @@ body, body a {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.nav-link {
+.navbar-brand, .nav-link {
     color: var(--sec-accent) !important;
     font-size: 1.1rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 /* Margin & Padding */
@@ -41,8 +49,16 @@ body, body a {
     margin-top: 6rem;
 }
 
+.mtd-1 {
+    margin-top: 7rem;
+}
+
 .py-c1 {
     padding: 5rem 0;
+}
+
+.pt-c1 {
+    margin-top: 35px;
 }
 
 /* Heights */
@@ -81,9 +97,7 @@ body, body a {
     background-size: cover;
 }
 
-
-.card-t1 {
-    transition: transform 1s;
+.card-t1, .card-t2 {
     background-color: #fff;
     border-radius: 10px;
     padding: 2.5rem 0;
@@ -91,7 +105,11 @@ body, body a {
     height: 40vh;
 }
 
-.card-t1:hover {
+.card-t1 {
+    transition: transform 1s;
+}
+
+.card-t1:hover, .card-t2 {
     transform: translateY(-25%);
 }
 
@@ -131,6 +149,16 @@ h3 {
     font-weight: bolder;
 }
 
+.emp-text-5 {
+    font-weight: 600;
+    font-size: 19px;
+}
+.emp-text-6 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 /* Image Styling */
 .img-pos-1 {
     position: relative;
@@ -138,7 +166,7 @@ h3 {
 }
 
 .img-w-1 {
-    width: 135%;
+    width: 125%;
 }
 
 .img-w-2 {
@@ -166,7 +194,7 @@ h3 {
     display: flex;
     border-bottom: 5px solid var(--main-accent);
     width: 8rem;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .btn-t1 {
@@ -175,15 +203,20 @@ h3 {
     border: 2px solid var(--sec-accent);
 }
 
-.btn-t2, .btn-t1:hover {
+.btn-t2 {
+    font-size: 15px;
+    padding: 14px;
+    margin-top: 45px;
+}
+
+.card-t1:hover .btn-t1, .btn-t2, .btn-t3 {
     color: #fff;
     background-color: var(--main-accent);
     border: 2px solid var(--main-accent);
-    font-size: 12px;
     font-weight: bold;
 }
 
-.btn-t2:hover {
+.btn-1:hover, .btn-t2:hover, .btn-t3:hover {
     color: #fff;
     background-color: var(--main-accent-darker);
     border: 2px solid var(--main-accent-darker);
@@ -251,6 +284,11 @@ h3 {
 
 .testimonials .owl-nav {
     display: none;
+    justify-content: center;
+}
+
+.testimonials .owl-next span,  .testimonials .owl-prev span {
+    font-size: 4rem;
 }
 
 .testimonials .owl-dots {
@@ -318,12 +356,7 @@ h3 {
 }
 
 .testimonials .active {
-    opacity: 0.5;
     transition: all 0.3s;
-}
-
-.testimonials .center {
-    opacity: 1;
 }
 
 .testimonials .center h5 {
