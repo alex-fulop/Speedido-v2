@@ -13,14 +13,34 @@
 </head>
 
 <body>
-<section class="h-small d-flex align-items-start align-items-md-center justify-content-center mt-5 mt-md-0">
-    <div class="container">
-        <nav class="navbar navbar-light navbar-expand-md text-start">
-            <div class="container-fluid">
-                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
-                        class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<section class="h-small d-flex align-items-start align-items-md-center justify-content-center mt-md-0">
+    <div class="d-none d-md-block w-100">
+        <div class="container">
+            <nav class="main-nav navbar navbar-light navbar-expand-md text-start">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" data-bs-target="#navcol-1" data-bs-toggle="collapse"><span
+                            class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand emp-text-4" href="#">SPEEDI<span class="accent-color">DO</span></a>
+                    <div class="collapse navbar-collapse text-start" id="navcol-1">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item me-4"><a class="nav-link" href="#sec1">Cum funcționează</a></li>
+                            <li class="nav-item me-4"><a class="nav-link" href="#sec2">Prețuri</a></li>
+                            <li class="nav-item me-4"><a class="nav-link" href="#sec3">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="d-block d-md-none w-100 h-100">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" data-bs-target="#navcol-2" data-bs-toggle="collapse"><span
+                        class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                </button>
                 <a class="navbar-brand emp-text-4" href="#">SPEEDI<span class="accent-color">DO</span></a>
-                <div class="collapse navbar-collapse text-start" id="navcol-1">
+                <div class="drop-down collapse navbar-collapse text-start" id="navcol-2">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item me-4"><a class="nav-link" href="#sec1">Cum funcționează</a></li>
                         <li class="nav-item me-4"><a class="nav-link" href="#sec2">Prețuri</a></li>

@@ -25,9 +25,14 @@ body, body a {
     font-family: sans-serif;
 }
 
-.navbar-brand, .nav-link {
-    color: var(--sec-accent) !important;
+.navbar-dark {
+    background-color: var(--sec-accent) !important;
+    color: #fff;
+}
+
+.main-nav .nav-link, .main-nav a {
     font-size: 1.1rem;
+    color: var(--sec-accent) !important;
 }
 
 .navbar-toggler {
