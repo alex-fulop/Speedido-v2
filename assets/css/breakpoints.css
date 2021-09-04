@@ -10,16 +10,15 @@
 }
 
 @media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width:  768px) {
     .card-t1 {
         width: 60%;
         margin: 2rem auto !important;
-    }
-
-    h3 {
-        font-size:1.5rem !important;
     }
 
     .sec-text {
@@ -29,35 +28,16 @@
 }
 
 @media (max-width: 992px) {
+    h3 {
+        font-size: 1.8rem !important;
+    }
+
     .img-w-1 {
         width: 100% !important;
     }
+
     .img-pos-1 {
         position: static !important;
-    }
-
-    .h-large {
-        min-height: 150vh !important;
-    }
-
-    .h-medium-large {
-        min-height: 100vh !important;
-    }
-
-    .h-medium {
-        min-height: 80vh !important;
-    }
-
-    .h-small-medium {
-        min-height: 50vh !important;
-    }
-
-    .h-small {
-        min-height: 20vh !important;
-    }
-
-    h3 {
-        font-size:1.8rem !important;
     }
 
     .sec-text {
@@ -88,9 +68,9 @@
     }
 
     .btn-t3 {
-        color: #fff;
-        background-color: var(--main-accent);
-        border: 2px solid var(--main-accent);
-        font-weight: bold;
+        color: #fff !important;
+        background-color: var(--main-accent) !important;
+        border: 2px solid var(--main-accent) !important;
+        font-weight: bold !important;
     }
 }

@@ -1,4 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
 
 :root {
     --main-accent: #A919C9;
@@ -23,7 +22,7 @@ html {
 body, body a {
     overflow-x: hidden;
     color: var(--sec-accent);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: sans-serif;
 }
 
 .navbar-brand, .nav-link {
