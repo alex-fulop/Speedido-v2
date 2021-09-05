@@ -25,6 +25,10 @@ body, body a {
     font-family: sans-serif;
 }
 
+.container {
+    max-width: 1500px !important;
+}
+
 .navbar-dark {
     background-color: var(--sec-accent) !important;
     color: #fff;
@@ -67,7 +71,7 @@ body, body a {
 
 /* Heights */
 .h-large {
-    min-height: 130vh;
+    min-height: 110vh;
 }
 
 .h-medium-large {
@@ -101,6 +105,13 @@ body, body a {
     background-size: cover;
 }
 
+.background-full {
+    background-image: url(../../assets/img/background-full.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-t1, .card-t2 {
     background-color: #fff;
     border-radius: 10px;
@@ -111,7 +122,7 @@ body, body a {
 
 /* Effects */
 h3 {
-    font-size:2.5rem;
+    font-size: 2.2rem;
 }
 
 .sec-text {
