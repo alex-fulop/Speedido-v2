@@ -14,7 +14,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -31,12 +30,15 @@ body, body a {
 
 .navbar-dark {
     background-color: var(--sec-accent) !important;
-    color: #fff;
 }
 
 .main-nav .nav-link, .main-nav a {
     font-size: 1.1rem;
     color: var(--sec-accent) !important;
+}
+
+.nav-link {
+    color: #fff !important;
 }
 
 .navbar-toggler {
@@ -91,20 +93,6 @@ body, body a {
 }
 
 /* Backgrounds */
-.background-light {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../../assets/img/background-light-grey.png);
-}
-
-.background-dark {
-    background-image: url(../../assets/img/background-dark-blue.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .background-full {
     background-image: url(../../assets/img/background-full.png);
     background-position: center center;
@@ -127,6 +115,7 @@ h3 {
 
 .sec-text {
     font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .shadow-t1 {
