@@ -72,14 +72,14 @@
     }
 
     .card-t1:hover {
+        transform: translateY(-25%);
     }
 
-    .card-t1 ~ .card-t2 {
+    .card-t1:hover ~ .card-t1 {
         display: none;
         transform: translateY(-25%);
 
     }
-
 
     .btn-t3 {
         color: #fff !important;
