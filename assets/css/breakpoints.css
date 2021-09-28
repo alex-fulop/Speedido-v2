@@ -63,13 +63,23 @@
 
 
 @media (min-width:  1200px) {
-    .card-t1 {
+    .card-t1, .card-t2 {
         transition: transform 1s;
     }
 
-    .card-t1:hover, .card-t2 {
+    .card-t2  {
         transform: translateY(-25%);
     }
+
+    .card-t1:hover {
+    }
+
+    .card-t1 ~ .card-t2 {
+        display: none;
+        transform: translateY(-25%);
+
+    }
+
 
     .btn-t3 {
         color: #fff !important;
