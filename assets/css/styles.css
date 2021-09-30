@@ -42,6 +42,9 @@ body a {
  }
 
 /* Navbar */
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgb(61,99,150);
+}
 
 .navbar-dark {
   background-color: var(--sec-accent) !important;
@@ -52,11 +55,10 @@ body a {
 }
 
 .nav-link {
-    color: var(--sec-accent) !important;
     font-size: 1.1rem;
     text-align: center;
     min-width: 5.5rem;
-
+    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -137,8 +139,7 @@ body a {
 }
 
 /*Cards*/
-.card-t1,
-.card-t2 {
+.card-t1 {
   background-color: #fff;
   border-radius: 10px;
   padding: 2.5rem 0;
@@ -146,11 +147,19 @@ body a {
   height: 45vh;
 }
 
+.card-t1:hover .btn-t1 {
+  color: #fff !important;
+  background-color: var(--main-accent) !important;
+  border: 2px solid var(--main-accent) !important;
+  font-weight: bold !important;
+}
+
 .btn-t1 {
   color: #fff;
   background-color: var(--main-accent);
   border: 2px solid var(--main-accent);
 }
+
 
 /* Effects */
 h3 {
@@ -251,7 +260,6 @@ h3 {
     font-size: 15px;
     padding: 14px;
     color: var(--main-accent);
-    background-color: var(--white);
     border: 2px solid var(--main-accent);
 }
 
@@ -260,14 +268,6 @@ h3 {
   background-color: var(--main-accent);
   border: 2px solid var(--main-accent);
 }
-
-/*.btn-t1:hover,*/
-/*.btn-t2:hover,*/
-/*.btn-t3:hover {*/
-/*    color: #fff;*/
-/*    background-color: var(--main-accent-darker);*/
-/*    border: 2px solid var(--main-accent-darker);*/
-/*}*/
 
 .btn-t4 {
   font-size: 12px;
@@ -386,7 +386,7 @@ h3 {
 
 .testimonials .card {
   background: #fff;
-  box-shadow: 0 8px 30px -7px #c9dff0;
+  box-shadow: 0 8px 30px -7px rgba(169, 25, 201, 0.26);
   margin: 0 20px;
   padding: 0 10px;
   border-radius: 20px;
@@ -445,4 +445,8 @@ h3 {
 
 .owl-carousel button.owl-dot {
   outline: 0;
+}
+
+.owl-stage {
+  margin: 2rem 0;
 }

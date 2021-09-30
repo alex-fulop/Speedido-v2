@@ -30,3 +30,11 @@
     carousels();
   })(jQuery);
 })();
+
+$('.card-t1').hover(() => {
+  $('.card-t2').removeClass('card-hl');
+});
+
+$('.card-t1').mouseleave(() => $('.card-t2').addClass('card-hl'));
+
+
