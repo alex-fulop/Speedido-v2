@@ -43,7 +43,7 @@ body a {
 
 /* Navbar */
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: rgb(61,99,150);
+  color: rgb(35 66 108);
 }
 
 .navbar-dark {
@@ -147,7 +147,7 @@ body a {
   height: 45vh;
 }
 
-.card-t1:hover .btn-t1 {
+.card-t1:hover .btn-t1, .btn-t3 {
   color: #fff !important;
   background-color: var(--main-accent) !important;
   border: 2px solid var(--main-accent) !important;
@@ -169,7 +169,7 @@ h3 {
 .sec-text {
   font-size: 1.2rem;
   font-weight: 400;
-  color: var(--sec-accent-ligher);
+  color: var(--sec-accent-lighter);
 }
 
 .shadow-t1 {
@@ -386,7 +386,7 @@ h3 {
 
 .testimonials .card {
   background: #fff;
-  box-shadow: 0 8px 30px -7px rgba(169, 25, 201, 0.26);
+  box-shadow: 0 8px 30px -7px #c9dff0;
   margin: 0 20px;
   padding: 0 10px;
   border-radius: 20px;

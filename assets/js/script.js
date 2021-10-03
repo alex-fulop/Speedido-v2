@@ -33,8 +33,12 @@
 
 $('.card-t1').hover(() => {
   $('.card-t2').removeClass('card-hl');
+  $('.card-t2').find('#btn-2').removeClass('btn-t3');
 });
 
-$('.card-t1').mouseleave(() => $('.card-t2').addClass('card-hl'));
+$('.card-t1').mouseleave(() => {
+  $('.card-t2').addClass('card-hl');
+  $('.card-t2').find('#btn-2').addClass('btn-t3');
+});
 
 
