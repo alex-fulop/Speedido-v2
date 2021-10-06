@@ -259,13 +259,14 @@ h3 {
 .btn-t2 {
     font-size: 15px;
     padding: 14px;
-    color: var(--main-accent);
-    border: 2px solid var(--main-accent);
+    color: #fff;
+  background-color: var(--main-accent);
+   border: 2px solid var(--main-accent);
 }
 
 .btn-t2:hover {
   color: #fff;
-  background-color: var(--main-accent);
+  background-color: var(--main-accent-darker);
   border: 2px solid var(--main-accent);
 }
 
